@@ -2,75 +2,145 @@
 <html lang="fa-IR">
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my new website </title>
     <style>
 
 body{
  direction:rtl;
  font-family:tahoma;
+ 
 }
- body {
- background: #d1ecbe
- }
 
+
+ body {
+  margin: 0;
+            padding: 0;
+           
+           background-image: url('https://shorturl.at/dgpTV');
+           background-size: cover;
+           background-position: center;
+}
+ .large-text {
+    font-size: 50px;}
+    .social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.social-btns .btn.facebook:before {
+  background-color: #3B5998;
+}
+.social-btns .btn.facebook .fa {
+  color: #3B5998;
+}
+.social-btns .btn.twitter:before {
+  background-color: #33CCFF;
+}
+.social-btns .btn.twitter .fa {
+  color: #33CCFF;
+}
+.social-btns .btn.instagram:before {
+  background-color: #FE0883;
+}
+.social-btns .btn.instagram .fa {
+  color: #FE0883;
+}
+.social-btns .btn.pinterest:before {
+  background-color: #910101;
+}
+.social-btns .btn.pinterest .fa {
+  color: #910101;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.social-btns {
+  height: 90px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: "";
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}
  h1{
  text-align:center;
- }
- h3{text-align: center;
+
 
  }
- h4 {text-align: center
-  ;}
+ 
 p {text-align: center;}
  summary {text-align: center;}
 
-
-  a:focus{background-color:rgb(255, 0, 0);
-    padding: 10px;
-
-  }
-      </style>
-  <head>
-  <body>
-      <h1 class="title"> <b>به وب سایت من خوش اومدین </b> </h1>
-  </body>
-</html>
-<body>
-    <h2> تو این صفحه می تونید با فشار دادن دکمه پایین با <a href="https://mu.chat/">هوش مصنوعی</a>  حرف بزنید
-      یا می تونید با سر زدن ب <a href="https://mu.chat/@houtanbot">این سایت<a/a>  ب صورت گرافیکی سوال خودتون رو درباره <b>تکنولوژی</b> بپرسین
-      </h2>
-
-        <details>
-            <summary> <b>روم کلیک کن</b> </summary>
-            <p>این سایت با زبان html درست شده در اینده بهتر خواهد شد.</p>
-            
-           </details>
-           
-           <button type="button" onclick="alert('updating...)"> کلیک کن</button>
-
-      <h3> <b> <a href="instagram.com/houtan.gh82/">instagram</a> </b>
-     </h3>
-     <h4> <b> <a href="https://t.me/Houtan17">telegram</a></b></h4> 
-    
-     <img src="files/girls-2.png" alt="girl">
-      
-    
  
+
+ times-text {
+            font-family: 'Times New Roman',}
+
+
+      </style>
+    </head>  
+  <body>
+      <h1 class="title"> <b> <font size="11">my social media </font> </b> 
+      </h1>
+      <h2> there will be something at night</h2>
+
       
-      
-  <script src="https://cdn.mu.chat/js/chat.js"></script>
-  <script>
-    window.onload = function () {
-      muchatCreateFloatingWidget({
-        agent: "clnni3u2x018ii7pl2ov3gr94",
-        bgColor: "#000000",
-        position: "left",
-        initialMessage:""
-      });
-    }
-  </script>
-  
-  
+  </body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="social-btns">
+    <a class="btn twitter" href="https://twitter.com/its_houtan"><i class="fa fa-twitter"></i></a>
+    <a class="btn instagram" href="https://www.instagram.com/houtan.gh82/"><i class="fa fa-instagram"></i></a>
+    <a class="btn bluesky" href="https://bsky.app/profile/itshoutan.bsky.social"><i class="fa fa-bsky"></i></a>
+    <a class="btn threads" href="https://www.threads.net/?__pwa=1"><i class="fa fa-threads"></i></a>
+    <a class="btn telegram" href="https://t.me/itsHoutan17"><i class="fa fa-telegram"></i></a>
+    <a class="btn facebook" href="https://www.facebook.com/?ref=homescreenpwa"><i class="fa-fa-facebook"></i></a>
   
 </body>
